@@ -1,0 +1,22 @@
+@import (reference) '~@common/styles/constants/colors.less';
+
+.visual-canvas {
+  &__context-menu-wrapper {
+    position: absolute;
+  }
+
+  &__context-menu-advanced {
+    opacity: 1 !important;
+    visibility: initial !important;
+    pointer-events: auto !important;
+    background: @white;
+    min-width: 240px;
+    padding: 8px 0;
+    color: @text-color;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 2px;
+    outline: none;
+    box-shadow: @shadow-md;
+  }
+}

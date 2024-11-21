@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Line component renders correctly 1`] = `
+<Component
+  forwardedRef={null}
+  id="Line 1"
+  items={Array []}
+  onAction={[MockFunction]}
+  onClick={[Function]}
+  onDblClick={[Function]}
+  onMouseDown={[Function]}
+  onMouseUp={[Function]}
+>
+  <Line
+    bezier={true}
+    fill="blue"
+    id="Line 1"
+    opacity={1}
+    pointerLength={11.5}
+    pointerWidth={10}
+    points={
+      Array [
+        1,
+        2.5,
+        4,
+        2.5,
+        4,
+        2.5,
+        4,
+        2.5,
+      ]
+    }
+    stroke="red"
+    strokeWidth={2}
+  />
+  <Arrow
+    bezier={true}
+    fill="blue"
+    id="Line 1"
+    onMouseEnter={[Function]}
+    onMouseOut={[Function]}
+    opacity={1}
+    pointerAtBeginning={false}
+    pointerLength={11.5}
+    pointerWidth={10}
+    points={
+      Array [
+        1,
+        2.5,
+        4,
+        2.5,
+        4,
+        2.5,
+        4,
+        2.5,
+      ]
+    }
+    strokeEnabled={false}
+  />
+  <LineIcon
+    backplateRadius={32}
+    backplateTheme={
+      Object {
+        "backgroundColor": "white",
+        "borderColor": "black",
+        "borderWidth": 2,
+        "opacity": 1,
+      }
+    }
+    contextMenuItems={Array []}
+    icon="test-file-stub"
+    id="Line 1"
+    onAction={[MockFunction]}
+    position={
+      Object {
+        "x": 2.5,
+        "y": 2.5,
+      }
+    }
+    radius={32}
+  />
+  <EndpointCircle
+    location={
+      Object {
+        "height": 3,
+        "width": 2,
+        "x": 1,
+        "y": 2.5,
+      }
+    }
+    style={
+      Object {
+        "theme": Object {
+          "backgroundColor": "blue",
+          "borderColor": "red",
+          "borderWidth": 2,
+          "opacity": 1,
+        },
+        "type": "Circle",
+      }
+    }
+  />
+</Component>
+`;
+
+exports[`Line component renders correctly without icon 1`] = `
+<Component
+  forwardedRef={null}
+  id="Line 1"
+  items={Array []}
+  onAction={[MockFunction]}
+  onClick={[Function]}
+  onDblClick={[Function]}
+  onMouseDown={[Function]}
+  onMouseUp={[Function]}
+>
+  <Line
+    bezier={true}
+    fill="blue"
+    id="Line 1"
+    opacity={1}
+    pointerLength={11.5}
+    pointerWidth={10}
+    points={
+      Array [
+        1,
+        2.5,
+        4,
+        2.5,
+        4,
+        2.5,
+        4,
+        2.5,
+      ]
+    }
+    stroke="red"
+    strokeWidth={2}
+  />
+  <Arrow
+    bezier={true}
+    fill="blue"
+    id="Line 1"
+    onMouseEnter={[Function]}
+    onMouseOut={[Function]}
+    opacity={1}
+    pointerAtBeginning={false}
+    pointerLength={11.5}
+    pointerWidth={10}
+    points={
+      Array [
+        1,
+        2.5,
+        4,
+        2.5,
+        4,
+        2.5,
+        4,
+        2.5,
+      ]
+    }
+    strokeEnabled={false}
+  />
+  <EndpointCircle
+    location={
+      Object {
+        "height": 3,
+        "width": 2,
+        "x": 1,
+        "y": 2.5,
+      }
+    }
+    style={
+      Object {
+        "theme": Object {
+          "backgroundColor": "blue",
+          "borderColor": "red",
+          "borderWidth": 2,
+          "opacity": 1,
+        },
+        "type": "Circle",
+      }
+    }
+  />
+</Component>
+`;

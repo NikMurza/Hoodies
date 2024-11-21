@@ -1,0 +1,53 @@
+@import (reference) '~@common/styles/constants/index';
+
+.visual-editor {
+  &__zoom {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    &__controls {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-button {
+      margin: 0 0 1px;
+      background: #ffffff;
+      border-radius: 2px;
+      box-shadow: 0 8px 12px rgba(115, 115, 115, 0.12);
+
+      &_active {
+        color: @blue;
+      }
+
+      &-padding {
+        margin: 0 0 32px;
+      }
+    }
+    &__value-button {
+      background-color: @white;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+    }
+    &-value-button {
+      width: 57px;
+      padding: 0;
+      transition: color 0.15s ease-out;
+      border: none;
+
+      &_alt {
+        color: @dark-orange;
+      }
+      &_shift {
+        color: @ultramarine;
+      }
+      &_ctrl {
+        color: @green;
+      }
+    }
+  }
+}

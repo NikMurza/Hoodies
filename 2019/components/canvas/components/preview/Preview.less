@@ -1,0 +1,30 @@
+@import (reference) '~@common/styles/constants/index';
+
+.visual-editor {
+  &__preview {
+    &-area {
+      background: @white;
+      position: absolute;
+      box-shadow: 0 0 2px rgba(@black, 0.25), 0 2px 8px rgba(@black, 0.15);
+
+      .visual-editor .visual-canvas-scrollable {
+        overflow: hidden;
+      }
+
+      .visual-canvas {
+        outline: none;
+        min-width: 100%;
+        min-height: 100%;
+      }
+    }
+  }
+
+  &__zoom {
+    bottom: 0;
+    right: 0;
+
+    .ui-button {
+      background-color: @white;
+    }
+  }
+}

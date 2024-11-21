@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CanvasMenu component render default 1`] = `
+<Layer>
+  <Group
+    onmouseleave={[Function]}
+    x={100}
+    y={200}
+  >
+    <MenuItem
+      activeItems={Array []}
+      index={0}
+      item={
+        Object {
+          "items": Array [
+            Object {
+              "text": "Menu2",
+            },
+          ],
+          "text": "menu1",
+        }
+      }
+      key="0"
+      level={0}
+      offsetX={0}
+      offsetY={0}
+      onClick={[Function]}
+    />
+  </Group>
+</Layer>
+`;

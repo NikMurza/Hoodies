@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WithResize HOC renders correctly 1`] = `
+<div
+  className="with-resize"
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+  style={
+    Object {
+      "left": 100,
+      "top": 200,
+    }
+  }
+>
+  <div
+    className="component"
+  >
+    <Component
+      height={560}
+      id="1"
+      isEditing={false}
+      isReadyToResize={false}
+      isSelected={false}
+      isValid={true}
+      maxSize={
+        Object {
+          "height": 800,
+          "width": 800,
+        }
+      }
+      minSize={
+        Object {
+          "height": 200,
+          "width": 200,
+        }
+      }
+      onAction={[MockFunction]}
+      width={640}
+      x={100}
+      y={200}
+    />
+  </div>
+</div>
+`;
+
+exports[`WithResize HOC renders correctly if selected 1`] = `
+<div
+  className="with-resize"
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+  style={
+    Object {
+      "left": 100,
+      "top": 200,
+    }
+  }
+>
+  <div
+    className="with-resize__selection-area"
+    style={Object {}}
+  >
+    <div
+      className="size-lbl"
+    >
+      NaN
+       x 
+      NaN
+    </div>
+    <div
+      className="resize-marker resize-marker-corner resize-marker-top-left"
+      key="corner_top-left"
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <SVGIcon
+        loaderSize={24}
+        src="test-file-stub"
+      />
+    </div>
+    <div
+      className="resize-marker resize-marker-corner resize-marker-top-right"
+      key="corner_top-right"
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <SVGIcon
+        loaderSize={24}
+        src="test-file-stub"
+      />
+    </div>
+    <div
+      className="resize-marker resize-marker-corner resize-marker-bottom-left"
+      key="corner_bottom-left"
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <SVGIcon
+        loaderSize={24}
+        src="test-file-stub"
+      />
+    </div>
+    <div
+      className="resize-marker resize-marker-corner resize-marker-bottom-right"
+      key="corner_bottom-right"
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <SVGIcon
+        loaderSize={24}
+        src="test-file-stub"
+      />
+    </div>
+    <div
+      className="resize-marker resize-marker-center resize-marker-center-top"
+      key="center_center-top"
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <SVGIcon
+        loaderSize={24}
+        src="test-file-stub"
+      />
+    </div>
+    <div
+      className="resize-marker resize-marker-center resize-marker-center-bottom"
+      key="center_center-bottom"
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <SVGIcon
+        loaderSize={24}
+        src="test-file-stub"
+      />
+    </div>
+    <div
+      className="resize-marker resize-marker-center resize-marker-center-left"
+      key="center_center-left"
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <SVGIcon
+        loaderSize={24}
+        src="test-file-stub"
+      />
+    </div>
+    <div
+      className="resize-marker resize-marker-center resize-marker-center-right"
+      key="center_center-right"
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <SVGIcon
+        loaderSize={24}
+        src="test-file-stub"
+      />
+    </div>
+  </div>
+  <div
+    className="component"
+  >
+    <Component
+      height={560}
+      id="1"
+      isEditing={false}
+      isReadyToResize={false}
+      isSelected={true}
+      isValid={true}
+      maxSize={
+        Object {
+          "height": 800,
+          "width": 800,
+        }
+      }
+      minSize={
+        Object {
+          "height": 200,
+          "width": 200,
+        }
+      }
+      onAction={[MockFunction]}
+      width={640}
+      x={100}
+      y={200}
+    />
+  </div>
+</div>
+`;

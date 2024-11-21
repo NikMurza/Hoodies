@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Reference points component renders correctly 1`] = `
+<Group>
+  <Circle
+    fill="#FFF"
+    id="circle_reference_point_1_1"
+    onClick={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    radius={6}
+    stroke="#3B5EDC"
+    x={0}
+    y={-6}
+  />
+  <Circle
+    fill="#FFF"
+    id="circle_reference_point_1_2"
+    onClick={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    radius={6}
+    stroke="#3B5EDC"
+    x={6}
+    y={0}
+  />
+  <Circle
+    fill="#FFF"
+    id="circle_reference_point_1_3"
+    onClick={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    radius={6}
+    stroke="#3B5EDC"
+    x={0}
+    y={6}
+  />
+  <Circle
+    fill="#FFF"
+    id="circle_reference_point_1_4"
+    onClick={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    radius={6}
+    stroke="#3B5EDC"
+    x={-6}
+    y={0}
+  />
+</Group>
+`;
+
+exports[`Reference points component renders correctly 2`] = `
+<Circle
+  fill="#FFF"
+  id="circle_reference_point_1_1"
+  onClick={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseOver={[Function]}
+  radius={6}
+  stroke="#3B5EDC"
+  x={0}
+  y={-6}
+/>
+`;

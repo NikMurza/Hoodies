@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CanvasStage component render default 1`] = `
+<div
+  className="canvas-stage"
+>
+  <ForwardRef
+    height={0}
+    offsetX={-0}
+    offsetY={-0}
+    width={0}
+  />
+</div>
+`;

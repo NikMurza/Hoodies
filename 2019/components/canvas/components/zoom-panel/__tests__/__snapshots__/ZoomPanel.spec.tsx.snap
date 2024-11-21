@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ZoomPanel component renders 1`] = `
+<div
+  className="visual-editor-zoom-panel"
+  onWheel={[Function]}
+>
+  <ToolbarMock
+    items={
+      Array [
+        Object {
+          "disabled": true,
+          "icon": "test-file-stub",
+          "id": "fit-all",
+          "title": "FitAll",
+        },
+        Object {
+          "disabled": true,
+          "icon": "test-file-stub",
+          "id": "fit-object",
+          "title": "FitObject",
+        },
+        Object {
+          "divider": true,
+        },
+        Object {
+          "disabled": false,
+          "icon": "test-file-stub",
+          "id": "plus",
+        },
+        Object {
+          "disabled": false,
+          "icon": "test-file-stub",
+          "id": "minus",
+        },
+      ]
+    }
+    onClick={[Function]}
+    rightItems={
+      Array [
+        Object {
+          "id": "zoom",
+          "label": "100%",
+          "title": undefined,
+        },
+      ]
+    }
+  />
+</div>
+`;

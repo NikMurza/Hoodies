@@ -1,0 +1,24 @@
+@import (reference) '~@common/styles/constants/colors.less';
+@import (reference) '~@common/styles/constants/margins.less';
+
+.table-visualizer {
+  position: absolute;
+  width: 640px - @container-border-width * 2;
+  height: 560px - @container-border-width * 2;
+
+  .table-visualizer-tabsheet {
+    .PPTSContainer {
+      table.PPTSGrid > tbody > tr:first-child {
+        display: none;
+      }
+    }
+  }
+}
+
+.with-move,
+.with-resize,
+.visualizer-wrapper {
+  .table-visualizer {
+    position: static;
+  }
+}

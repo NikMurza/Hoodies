@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WithContextMenu HOC renders correctly 1`] = `
+<Component
+  id="id1"
+  isContextMenuShow={true}
+  items={
+    Array [
+      Object {
+        "action": "Edit",
+        "icon": "",
+        "name": "Rename",
+      },
+      Object {
+        "action": "Delete",
+        "icon": "",
+        "name": "Delete",
+      },
+    ]
+  }
+  onAction={[Function]}
+  onAddComponent={[Function]}
+  onContextMenu={[Function]}
+  onRemoveComponent={[Function]}
+  type="circle"
+/>
+`;
+
+exports[`WithContextMenu HOC renders correctly hidden 1`] = `
+<Component
+  id="id1"
+  isContextMenuShow={false}
+  items={
+    Array [
+      Object {
+        "action": "Edit",
+        "icon": "",
+        "name": "Rename",
+      },
+      Object {
+        "action": "Delete",
+        "icon": "",
+        "name": "Delete",
+      },
+    ]
+  }
+  onAction={[Function]}
+  onAddComponent={[Function]}
+  onContextMenu={[Function]}
+  onRemoveComponent={[Function]}
+  type="circle"
+/>
+`;
+
+exports[`WithContextMenu HOC renders correctly show 1`] = `
+<Component
+  id="id1"
+  isContextMenuShow={true}
+  items={
+    Array [
+      Object {
+        "action": "Edit",
+        "icon": "",
+        "name": "Rename",
+      },
+      Object {
+        "action": "Delete",
+        "icon": "",
+        "name": "Delete",
+      },
+    ]
+  }
+  onAction={[Function]}
+  onAddComponent={[Function]}
+  onContextMenu={[Function]}
+  onRemoveComponent={[Function]}
+  type="circle"
+/>
+`;

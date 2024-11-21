@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly 1`] = `
+<Button
+  className="button-active_blue"
+  color="default"
+  icon={true}
+  onClick={[Function]}
+  outline={false}
+  size="M"
+  title=""
+  type="button"
+>
+  <SVGIcon
+    loaderSize={24}
+    src="test-file-stub"
+  />
+</Button>
+`;

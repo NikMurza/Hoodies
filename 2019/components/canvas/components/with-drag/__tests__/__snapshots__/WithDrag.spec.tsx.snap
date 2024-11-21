@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WithDrag HOC renders correctly 1`] = `
+<Component
+  draggable={true}
+  id="id1"
+  onAction={[Function]}
+  onDragEnd={[Function]}
+  onDragMove={[Function]}
+  onDragStart={[Function]}
+  radius={100}
+/>
+`;

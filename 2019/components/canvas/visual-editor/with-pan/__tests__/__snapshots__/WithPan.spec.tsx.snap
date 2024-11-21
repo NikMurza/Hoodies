@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WithHover HOC canvas renders correctly 1`] = `
+<Component
+  onAction={[MockFunction]}
+  onMouseDown={[Function]}
+  onMouseMove={[Function]}
+  onMouseUp={[Function]}
+  x={1}
+  y={1}
+/>
+`;
+
+exports[`WithHover HOC other HTML-elements renders correctly with div-child 1`] = `
+<Component
+  className="with-pan"
+  onMouseDown={[Function]}
+  onMouseMove={[Function]}
+  onMouseUp={[Function]}
+>
+  <div>
+    Some content
+  </div>
+</Component>
+`;

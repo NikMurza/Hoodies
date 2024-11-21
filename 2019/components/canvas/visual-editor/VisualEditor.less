@@ -1,0 +1,34 @@
+.visual-editor {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+  & .visual-canvas {
+    position: relative;
+    overflow: hidden;
+    outline: none;
+
+    &-scrollable {
+      position: relative;
+      flex-grow: 1;
+      overflow: auto;
+      &_hidden-scroll {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      &_hidden-scroll::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    &__components {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    &__context-menu-wrapper {
+      position: absolute;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LineIcon component renders correctly 1`] = `
+<Component
+  id="LineIcon1"
+  isContextMenuShow={false}
+  items={Array []}
+  onAction={
+    Object {
+      "onAction": [MockFunction],
+    }
+  }
+  onAddComponent={
+    Object {
+      "onAddComponent": [MockFunction],
+    }
+  }
+  onRemoveComponent={
+    Object {
+      "onRemoveComponent": [MockFunction],
+    }
+  }
+  opacity={1}
+  type="block"
+>
+  <Circle
+    fill="blue"
+    offsetX={0}
+    offsetY={0}
+    radius={16}
+    stroke="red"
+    strokeWidth={2}
+    x={1}
+    y={2}
+  />
+  <URLImage
+    height={16}
+    src="some-icon.svg"
+    width={16}
+    x={-7}
+    y={-6}
+  />
+</Component>
+`;

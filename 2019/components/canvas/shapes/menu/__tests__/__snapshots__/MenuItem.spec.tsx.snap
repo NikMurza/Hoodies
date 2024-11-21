@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuItem component render default 1`] = `
+<Group
+  key="lvl1_1"
+>
+  <Group
+    onClick={[Function]}
+    onmouseleave={[Function]}
+    onmousemove={[Function]}
+    x={235}
+    y={41}
+  >
+    <Rect
+      cornerRadius={2}
+      fill="#FFF"
+      height={40}
+      width={235}
+      x={0}
+      y={0}
+    />
+    <Rect
+      cornerRadius={2}
+      fill="#FFF"
+      height={40}
+      shadowBlur={4}
+      shadowColor="#CCC"
+      shadowOffsetY={3}
+      stroke="transparent"
+      width={235}
+      x={0}
+      y={0}
+    />
+    <URLImage
+      x={14}
+      y={10}
+    />
+    <Text
+      fill="#222B3C"
+      fontFamily="OpenSans, sans-serif"
+      fontSize={15}
+      text="menu1"
+      x={50}
+      y={15}
+    />
+    <Line
+      points={
+        Array [
+          215,
+          16,
+          221,
+          22,
+          215,
+          28,
+        ]
+      }
+      stroke="#23B1FE"
+      strokeWidth={2}
+    />
+  </Group>
+</Group>
+`;
+
+exports[`MenuItem component render select 1`] = `
+<Group
+  key="lvl0_1"
+>
+  <Group
+    onClick={[Function]}
+    onmouseleave={[Function]}
+    onmousemove={[Function]}
+    x={0}
+    y={41}
+  >
+    <Rect
+      cornerRadius={2}
+      fill="#FFF"
+      height={40}
+      width={235}
+      x={0}
+      y={0}
+    />
+    <Rect
+      cornerRadius={2}
+      fill="#FFF"
+      height={40}
+      shadowBlur={4}
+      shadowColor="#CCC"
+      shadowOffsetY={3}
+      stroke="transparent"
+      width={235}
+      x={0}
+      y={0}
+    />
+    <URLImage
+      x={14}
+      y={10}
+    />
+    <Text
+      fill="#222B3C"
+      fontFamily="OpenSans, sans-serif"
+      fontSize={15}
+      text="menu1"
+      x={50}
+      y={15}
+    />
+    <Line
+      points={
+        Array [
+          215,
+          16,
+          221,
+          22,
+          215,
+          28,
+        ]
+      }
+      stroke="#23B1FE"
+      strokeWidth={2}
+    />
+  </Group>
+  <MenuItem
+    activeItems={
+      Array [
+        1,
+      ]
+    }
+    index={0}
+    item={
+      Object {
+        "text": "Menu2",
+      }
+    }
+    key="0"
+    level={1}
+    offsetX={1}
+    offsetY={40}
+  />
+</Group>
+`;

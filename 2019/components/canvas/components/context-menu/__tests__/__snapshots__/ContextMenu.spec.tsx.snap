@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContextMenu component renders correctly 1`] = `
+<Portal
+  containerInfo={<body />}
+>
+  <div
+    className="visual-canvas__context-menu-wrapper"
+    key="ctx"
+    style={
+      Object {
+        "left": 100,
+        "top": 100,
+      }
+    }
+  >
+    <ContextMenuAdvance
+      className="visual-canvas__context-menu-advanced"
+      data={
+        Object {
+          "items": Array [
+            Object {
+              "action": "Edit",
+              "caption": "Edit",
+              "divider": undefined,
+              "iconPath": "",
+              "items": undefined,
+              "payload": undefined,
+            },
+            Object {
+              "action": "Delete",
+              "caption": "Delete",
+              "divider": undefined,
+              "iconPath": "",
+              "items": undefined,
+              "payload": undefined,
+            },
+          ],
+          "onItemClick": [Function],
+        }
+      }
+      id="ctx"
+      usePortal={false}
+    />
+  </div>
+</Portal>
+`;

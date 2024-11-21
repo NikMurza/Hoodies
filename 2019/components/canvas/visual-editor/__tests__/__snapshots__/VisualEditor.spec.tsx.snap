@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VisualEditor component renders empty correctly 1`] = `
+<Component
+  className="visual-editor"
+  onAction={[Function]}
+  onResize={[Function]}
+  stageRef={
+    Object {
+      "current": null,
+    }
+  }
+>
+  <div
+    className="visual-canvas"
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    tabIndex={-1}
+  >
+    <ContextConsumer>
+      <Component />
+    </ContextConsumer>
+    <div
+      className="visual-canvas__components"
+    />
+  </div>
+</Component>
+`;
+
+exports[`VisualEditor component renders with circles correctly 1`] = `
+<Component
+  className="visual-editor"
+  onAction={[MockFunction]}
+  onResize={[Function]}
+  stageRef={
+    Object {
+      "current": null,
+    }
+  }
+>
+  <div
+    className="visual-canvas"
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    tabIndex={-1}
+  >
+    <ContextConsumer>
+      <Component />
+    </ContextConsumer>
+    <div
+      className="visual-canvas__components"
+    />
+  </div>
+</Component>
+`;
+
+exports[`VisualEditor component renders with items correctly 1`] = `
+<Component
+  className="visual-editor"
+  onAction={[Function]}
+  onResize={[Function]}
+  stageRef={
+    Object {
+      "current": null,
+    }
+  }
+>
+  <div
+    className="visual-canvas"
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    tabIndex={-1}
+  >
+    <ContextConsumer>
+      <Component />
+    </ContextConsumer>
+    <div
+      className="visual-canvas__components"
+    />
+  </div>
+</Component>
+`;
+
+exports[`VisualEditor component renders with items correctly and without Pan 1`] = `
+<Component
+  className="visual-editor"
+  onAction={[Function]}
+  onResize={[Function]}
+  stageRef={
+    Object {
+      "current": null,
+    }
+  }
+>
+  <div
+    className="visual-canvas"
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    tabIndex={-1}
+  >
+    <ContextConsumer>
+      <Component />
+    </ContextConsumer>
+    <div
+      className="visual-canvas__components"
+    />
+  </div>
+</Component>
+`;

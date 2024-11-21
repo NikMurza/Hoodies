@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component renders correctly 1`] = `
+<div
+  className="edit-input"
+  style={
+    Object {
+      "height": 24,
+      "left": 50,
+      "top": 88,
+      "transform": "rotate(0deg)",
+      "width": 100,
+    }
+  }
+>
+  <input
+    onBlur={[Function]}
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    type="text"
+    value="table1"
+  />
+</div>
+`;

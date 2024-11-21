@@ -1,0 +1,191 @@
+@import (reference) '~@common/styles/constants/colors.less';
+
+@resize-marker-padding: 4px;
+
+.scale-resize-marker(@deg: 0) {
+  transform: rotate(@deg);
+  &.hover {
+    transform: rotate(@deg) scale(1.5);
+  }
+  &.hide {
+    transform: rotate(@deg) scale(0);
+  }
+}
+
+.with-resize {
+  position: absolute;
+  height: inherit;
+
+  .component {
+    height: inherit;
+    &.resizing {
+      pointer-events: none;
+    }
+  }
+}
+
+.with-move {
+  .with-resize {
+    position: static;
+  }
+}
+
+// цвет области при ресайзе будет fade(@blue, 8%)
+.with-resize__selection-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 2px solid @blue;
+  border-radius: 2px;
+  z-index: 52;
+  transition: background-color 0.3s ease-out;
+  clip-path: polygon(
+    -1% -1%,
+    -1% 101%,
+    2% 101%,
+    2% 2%,
+    98% 2%,
+    98% 98%,
+    2% 98%,
+    2% 105%,
+    105% 105%,
+    105% -1%
+  );
+
+  &.invalid {
+    border-color: @red;
+
+    .resize-marker {
+      color: @red;
+    }
+
+    .size-lbl {
+      background-color: @red;
+    }
+  }
+
+  &.resizing {
+    z-index: 51;
+    background: #3b5edc33;
+    clip-path: none;
+  }
+
+  &.hover {
+    .resize-marker {
+      opacity: 1;
+    }
+  }
+
+  &.fetching {
+    .resize-marker {
+      display: none;
+    }
+  }
+
+  .size-lbl {
+    position: absolute;
+    bottom: -27px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2px 4px;
+    color: @white;
+    background: @blue;
+    border-radius: 2px;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.004em;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+
+    &.visible {
+      opacity: 1;
+    }
+  }
+
+  .resize-marker {
+    position: absolute;
+    width: 16px;
+    color: @blue;
+    transition: all 0.15s ease-out;
+    box-sizing: content-box;
+    padding: @resize-marker-padding;
+    opacity: 0;
+    svg {
+      position: absolute;
+    }
+  }
+  .resize-marker-corner {
+    height: 16px;
+    transform-origin: 1px 1px;
+  }
+  .resize-marker-center {
+    display: flex;
+    height: 4px;
+  }
+  .resize-marker-top-left {
+    top: -3px - @resize-marker-padding;
+    left: -3px - @resize-marker-padding;
+    cursor: nwse-resize;
+    .scale-resize-marker();
+    &.hover {
+      top: -3px - @resize-marker-padding*1.5;
+      left: -3px - @resize-marker-padding*1.5;
+    }
+  }
+  .resize-marker-top-right {
+    top: -3px - @resize-marker-padding;
+    right: -17px - @resize-marker-padding*3;
+    cursor: nesw-resize;
+    .scale-resize-marker(90deg);
+    &.hover {
+      top: -3px - @resize-marker-padding*1.5;
+      right: -17px - @resize-marker-padding*3.5;
+    }
+  }
+  .resize-marker-bottom-left {
+    bottom: -17px - @resize-marker-padding*3;
+    left: -3px - @resize-marker-padding;
+    cursor: nesw-resize;
+    .scale-resize-marker(-90deg);
+    &.hover {
+      bottom: -17px - @resize-marker-padding*3.5;
+      left: -3px - @resize-marker-padding*1.5;
+    }
+  }
+  .resize-marker-bottom-right {
+    bottom: -17px - @resize-marker-padding*3;
+    right: -17px - @resize-marker-padding*3;
+    cursor: nwse-resize;
+    .scale-resize-marker(180deg);
+    &.hover {
+      bottom: -17px - @resize-marker-padding*3.5;
+      right: -17px - @resize-marker-padding*3.5;
+    }
+  }
+  .resize-marker-center-top {
+    top: -3px - @resize-marker-padding;
+    left: calc(50% - 8px - @resize-marker-padding);
+    cursor: ns-resize;
+    .scale-resize-marker();
+  }
+  .resize-marker-center-bottom {
+    bottom: -3px - @resize-marker-padding;
+    left: calc(50% - 8px - @resize-marker-padding);
+    cursor: ns-resize;
+    .scale-resize-marker();
+  }
+  .resize-marker-center-left {
+    top: 50%;
+    left: -9px - @resize-marker-padding;
+    cursor: ew-resize;
+    .scale-resize-marker(90deg);
+  }
+  .resize-marker-center-right {
+    top: 50%;
+    right: -9px - @resize-marker-padding;
+    cursor: ew-resize;
+    .scale-resize-marker(90deg);
+  }
+}

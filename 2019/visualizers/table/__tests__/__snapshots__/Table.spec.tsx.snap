@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table component renders correctly 1`] = `
+<div
+  className="table-visualizer"
+  style={
+    Object {
+      "height": undefined,
+      "left": 0,
+      "top": 0,
+      "width": undefined,
+    }
+  }
+>
+  <Component
+    browserRoutingMode={true}
+    className="table-visualizer-tabsheet"
+    columnHeaderHeight={1}
+    data={Object {}}
+    editMode={0}
+    isFetching={false}
+    isPtFontUnit={true}
+    onLoadRanges={[Function]}
+    onPictureMouseDown={[Function]}
+    rowHeaderWidth={0}
+    type="Grid"
+    useNumberFormats={true}
+  />
+</div>
+`;

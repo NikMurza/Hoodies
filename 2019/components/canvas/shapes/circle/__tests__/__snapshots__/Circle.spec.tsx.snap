@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Circle component renders correctly 1`] = `
+<Component
+  dragBoundFunc={[Function]}
+  draggable={true}
+  id="table1"
+  items={Array []}
+  onAction={[Function]}
+  onAddComponent={[Function]}
+  onClick={[Function]}
+  onDblClick={[Function]}
+  onMouseUp={[Function]}
+  onRemoveComponent={[Function]}
+  type="circle"
+  x={100}
+  y={100}
+>
+  <Circle
+    radius={108}
+  />
+  <Group>
+    <Circle
+      fill="#A469AD"
+      id="table1"
+      radius={100}
+      shadowBlur={4}
+      shadowColor="#cccccc"
+      shadowOffsetY={2}
+      stroke="#8B5A94"
+    />
+    <Text
+      align="center"
+      ellipsis={true}
+      fill="#FFF"
+      fontFamily="OpenSans, sans-serif"
+      fontSize={14}
+      text=""
+      verticalAlign="middle"
+      width={150}
+      wrap="none"
+      x={-75.8}
+      y={-6.314}
+    />
+  </Group>
+</Component>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Block component renders correctly 1`] = `
+<Component
+  accentColor="red"
+  debounceHoverActions={false}
+  draggable={true}
+  forwardedRef={null}
+  height={4}
+  id="id1"
+  items={Array []}
+  onAction={[MockFunction]}
+  width={3}
+  x={1}
+  y={2}
+>
+  <Rect
+    fill="green"
+    height={4}
+    stroke="red"
+    strokeWidth={0}
+    width={3}
+    x={0}
+    y={0}
+  />
+</Component>
+`;

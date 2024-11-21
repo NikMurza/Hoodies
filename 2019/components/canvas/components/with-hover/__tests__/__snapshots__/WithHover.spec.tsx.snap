@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WithHover HOC renders correctly 1`] = `
+<Component
+  id="id1"
+  onAction={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  type="circle"
+/>
+`;

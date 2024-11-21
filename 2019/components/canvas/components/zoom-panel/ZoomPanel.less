@@ -1,0 +1,47 @@
+@import (reference) '~@common/styles/constants/colors.less';
+
+.visual-editor-zoom-panel {
+  display: flex;
+  background-color: @white;
+  box-shadow: 0 8px 12px rgba(115, 115, 115, 0.12);
+
+  .ui-toolbar-wrapper {
+    padding: 0;
+    box-shadow: 0 0 2px rgba(@black, 0.25), 0 2px 8px rgba(@black, 0.15);
+
+    .ui-toolbar {
+      height: 40px !important;
+      padding: 4px;
+
+      &-item_selected {
+        color: @dark-gray;
+
+        &:hover {
+          color: @blue;
+        }
+      }
+    }
+  }
+
+  .ui-toolbar-left {
+    display: none;
+  }
+
+  &:hover .ui-toolbar-left {
+    width: 162px;
+  }
+
+  &:hover,
+  &-show-preview {
+    .ui-toolbar-left {
+      display: block;
+    }
+  }
+
+  &-show-preview {
+    .ui-toolbar-item_selected.preview,
+    .preview {
+      color: @blue;
+    }
+  }
+}

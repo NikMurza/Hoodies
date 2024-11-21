@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Zoom component renders correctly - type Controls 1`] = `
+<div
+  className="visual-editor__zoom"
+  style={
+    Object {
+      "bottom": undefined,
+      "left": 10,
+      "right": undefined,
+      "top": 20,
+    }
+  }
+>
+  <div
+    className="visual-editor__zoom__controls"
+  >
+    <Button
+      className="visual-editor__zoom-button"
+      color="default"
+      icon={true}
+      onClick={[Function]}
+      outline={false}
+      size="S"
+      title=""
+      type="button"
+    >
+      <SVGIcon
+        loaderSize={24}
+        src="test-file-stub"
+      />
+    </Button>
+    <Button
+      className="visual-editor__zoom-button visual-editor__zoom-button-padding"
+      color="default"
+      icon={true}
+      onClick={[Function]}
+      outline={false}
+      size="S"
+      title=""
+      type="button"
+    >
+      <SVGIcon
+        loaderSize={24}
+        src="test-file-stub"
+      />
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`Zoom component renders correctly - type ValueButton 1`] = `
+<div
+  className="visual-editor__zoom"
+  style={
+    Object {
+      "bottom": undefined,
+      "left": 10,
+      "right": undefined,
+      "top": 20,
+    }
+  }
+>
+  <div
+    className="visual-editor__zoom__value-button"
+    onWheel={[Function]}
+  >
+    <Hint
+      color="black"
+      disabled={false}
+      mode="hint"
+      position="top"
+      tooltipClassName="ui-hint_small-arrow ui-hint_hidden"
+      trigger="hover"
+      triggerClassName="ui-hint_trigger-full-height"
+      withArrow={true}
+    >
+      <Button
+        className="visual-editor__zoom-value-button"
+        color="default"
+        icon={false}
+        onClick={[Function]}
+        outline={true}
+        size="M"
+        title=""
+        type="button"
+      >
+        100%
+      </Button>
+    </Hint>
+  </div>
+</div>
+`;
